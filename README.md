@@ -1,7 +1,7 @@
 # Exercise Tracker
 
 ## General Info
-This is a simple CRUD REST API web application developed with MongoDB & Mongoose, Express.js, React.js, and Node.js. The web application was developed in a model-view-controller design pattern.
+This is a simple CRUD REST API web application developed with MongoDB & Mongoose, Express.js, React.js, and Node.js. The application was developed in a model-view-controller web framework.
 
 ## Website View
 
