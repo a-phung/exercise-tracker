@@ -1,0 +1,86 @@
+body {
+  background-color:rgb(236, 236, 236);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2a96d4;
+  color: white;
+}
+
+h1 {
+  font-family:'Montserrat', sans-serif;
+  color: black;
+}
+
+#h1-home {
+  font-family:'Montserrat', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-family:'Montserrat', sans-serif;
+}
+
+#title-desc {
+  font-family:'Montserrat', sans-serif;
+  color: white;
+}
+
+#log-desc {
+  font-family:'Montserrat', sans-serif;
+  font-size: 80%;
+}
+
+.container-h1 {
+  background-color: #3c5a9b;
+  width: 100%;
+}
+
+.button {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid black;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Montserrat', sans-serif;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.button:hover{
+  color:#000000;
+  background-color:white;
+}
